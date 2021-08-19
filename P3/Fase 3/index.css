@@ -48,3 +48,10 @@ main{
     position: relative;
     cursor: pointer;
 }
+footer{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    color:#777;
+}
