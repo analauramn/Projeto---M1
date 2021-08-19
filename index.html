@@ -5,42 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600;700;800&display=swap" rel="stylesheet">
     <script src="index.js"></script>
     <title>Document</title>
 </head>
 <body>
     <header>
-        <a href="http://">CLÍNICA DE REABILITAÇÃO DOS VILÕES</a>
+        <nav>
+            <h1><a href="http://">CLÍNICA MAL-KINGDOM</a></h1>
+        </nav>  
+        <div class="text-box">
+            <h2>CLÍNICA DE REABILITAÇÃO DOS VILÕES</h2>
+            <p>A Clínica Mal-Kingdom é uma clínica especializada em reabilitação dos vilões, com mais de 1 século de tradição. <br> Inúmeros vilões, serial killers e mestres do crime passaram por nossas portas e voltaram à boa sociedade reabilitados, sem muitas dificuldades no retorno. </p>  
+        </div>          
     </header>
     <main>
-        <h2>SOBRE A CLÍNICA</h2>
-        <p>A Clínica Mal-Kingdom é </p>
-        <h2>ALGUNS PACIENTES</h2>
-        <p>Na útlima etapa do nosso tratamento, damos uma série de desafios aos nossos pacientes para avaliar se estão prontos para voltarem a viver em sociedade ou se precisam continuar por mais algum tempo em nossa clínica. Para ajudá-los em seus primeiros desafios, convidamos civis para apadrinharem um dos pacientes e auxiliarem eles em suas escolhas. Quem você escolhe para apadrinhar? </p>
-        <section>
+        <div class="Paciente">
+            <h1>ALGUNS PACIENTES</h1>
+            <p>Na útlima etapa do nosso tratamento, damos uma série de desafios aos nossos pacientes para avaliar se estão prontos para voltarem a viver em sociedade ou se precisam continuar por mais algum tempo em nossa clínica. Para ajudá-los em seus primeiros desafios, convidamos civis para apadrinharem um dos pacientes e auxiliarem eles em suas escolhas. Quem você escolhe para apadrinhar? </p>
+        </div>
+        <section> 
            <div class="Paola">
                <img src="P1/Img/Paola 1.jpg" alt="Paciente 1: Paola Bracho">
-               <p>Paciente 1 </p>
+               <h3>Paciente 1 </h3>
                <p>Paola Bracho é conhecida por seu deboche, magnetismo e sua vontade de ser milionária a todo custo, usando muitas vezes a manipulação para atingir seus objetivos.</p>
-                <button onclick="EscolhaPersonagens ()">Paola</button>
+                <button class="btn" onclick="EscolhaPersonagens ()">Paola</button>
            </div>
            <div class="Odete">
-               <img src="P2/Img/Odete 1.jpeg" alt="">
-               <p>Paciente 2 </p>
+               <img src="P2/Img/Odete.jpg" alt="">
+               <h3>Paciente 2 </h3>
                <p>Odete Roitman </p>
-               <button onclick="EscolhaPersonagens ()">Odete</button>
+               <button class="btn" onclick="EscolhaPersonagens ()">Odete</button>
            </div>
            <div class="Carminha">
                <img src="P3/Img/Carminha 1.jpg" alt="">
-               <p>Paciente 3 </p>
+               <h3>Paciente 3 </h3>
                <p>Carminha </p>
-                <button onclick="EscolhaPersonagens ()">Carminha</button>
+                <button class="btn" onclick="EscolhaPersonagens ()">Carminha</button>
            </div>
         </section>
         
     </main>
     <footer>
-
+        Feito para fins educativos. @analaura_ns
     </footer>
 </body>
 </html>
