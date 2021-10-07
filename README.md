@@ -8,3 +8,5 @@ O que aprendi neste projeto:
 - CSS
 - JavaScript
 - Básico de responsividade
+
+Para jogar, acesse: https://analauramn.github.io/Projeto---M1/
